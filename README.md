@@ -7,7 +7,7 @@
 
 * mouseReleased(MouseEvent):	Called just after the user releases a mouse button after a mouse press over the listened-to component.
 citation: https://docs.oracle.com/javase/tutorial/uiswing/events/mouselistener.html
-
+<br><br>
 2. Window Listener
 
 * The listener interface for receiving window events. The class that is interested in processing a window event either implements this interface (and all the methods it contains) or extends the abstract WindowAdapter class (overriding only the methods of interest). The listener object created from that class is then registered with a Window using the window's addWindowListener method. When the window's status changes by virtue of being opened, closed, activated or deactivated, iconified or deiconified, the relevant method in the listener object is invoked, and the WindowEvent is passed to it.<br>
